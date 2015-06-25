@@ -1,7 +1,45 @@
+*{
+	border: ;
+}
+
 .cart-container {
   width: 300px;
 }
 
-#cart {
+#cart h1{
+	text-transform: uppercase;
 
+}
+
+
+li{
+	display: flex;
+	border-top: solid;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.button{
+	margin-bottom: auto;
+	margin-top: auto;
+	}
+
+.checkout{
+	background-color: blue;
+	width: 100%;
+	border: none;
+	padding: 20px;
+	font-size: 1em;
+	color: white;
+	border-radius: 0%;
+}
+
+span{
+	color: #cccccc;
+}
+
+button{
+	background-color: gray;
+	border-radius: 50%;
+	border: none;
 }
